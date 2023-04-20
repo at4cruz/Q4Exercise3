@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+        <title> Q4 | Exercise 3</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style type="text/css">
+        li{
+            color: darkcyan;
+        }
+        h1{
+            color: lightsalmon;
+        }
+    </style>
+</head>
+
+<body class="bg-primary">
+    <h1 class="text-center">Math Questions!</h1>
+<div class="bg-danger">
+    <ol type="1,">
+<font size="+2">
+    <li>y + x = <strong id="p1"></strong></li>
+    <li>x - y = <strong id="p2"></strong></li>
+    <li>x * y = <strong id="p3"></strong></li>
+    <li>x / y = <strong id="p4"></strong></li>
+    <li>y % 2 = <strong id="p5"></strong></li>
+</font>
+    </ol>
+
+    <script>
+        let x=10, y=5;
+
+        let sum = x + y;
+        let diff = y - x;
+        let product = y * x;
+        let quotient = x / y;
+        let modulus = y % 2;
+
+        alert("The sum of variable y and variable x is: " + sum + "\n" + "The difference of variable y and x is: " + diff + "\n" + "The product of variable x and variable y is: " + product + "\n" + "The quotient of variable x and variable y is: " + quotient + "\n" + "The modulus of variable y and variable 2 is: " + modulus + "\n");
+
+        //variable declaration;assignment of values
+        document.getElementByID("p1").innerHTML = x + y;
+        document.getElementByID("p2").innerHTML = y - x;
+        
+    </script>
+</body>
+</div>
+</html>
